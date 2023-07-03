@@ -1,0 +1,68 @@
+.activity-container{
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    //background-color: $Darkblue;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    @media (max-width: 650px){
+        min-width: 100%;
+        min-height: 150px;
+    }
+    
+}
+.activity-header{
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem 1rem 0 0;
+    position: absolute;
+}
+
+.activity-header>img{
+    width: 25%;
+    object-fit: contain;
+    position: absolute;
+    right: 1rem;
+}
+
+.activity-info{
+    border-radius: 1rem;
+    height: 82%;
+    width: 100%;
+    padding: 1rem 2rem;
+    position: absolute;
+    top: 18%;
+    background-color: $Darkblue;
+    z-index: 10;
+    cursor: pointer;
+    &:hover{
+        background-color: $Desaturatedblue
+    }
+}
+
+.title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.title-container>p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ellipsis-img:hover{
+    filter: brightness(200%);
+}
+.timeframe-h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.timeframe-last{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
