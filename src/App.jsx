@@ -1,5 +1,4 @@
 import { useEffect } from "react"
-import { getData } from "./helpers/getData"
 import { useState } from "react"
 import { UserReport } from "./components/UserReport";
 import { Report } from "./components/Report";
@@ -7,6 +6,12 @@ import { Report } from "./components/Report";
 function App() {
   const [data, setData] = useState([]);
   const [time, setTime] = useState("daily");
+
+  async function getData ()  {
+    const res = await fetch("data.json")
+    const data = await res.json()
+    return data
+}
   
   useEffect(()=>{
     getData()
