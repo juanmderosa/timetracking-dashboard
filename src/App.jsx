@@ -5,7 +5,7 @@ import { UserReport } from "./components/UserReport";
 import { Report } from "./components/Report";
 
 function App() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
   const [time, setTime] = useState("daily");
   
   useEffect(()=>{

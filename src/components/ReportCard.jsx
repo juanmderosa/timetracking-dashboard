@@ -9,12 +9,10 @@ const colorSelector = {
     "Self Care": "hsl(43, 84%, 65%)",
   }
 export const ReportCard = ({data, time}) => {
-
-  console.log(time)
-
+  console.log(data)
   return (
     <>
-    {data && data.map((item, index)=>(
+    {data.length > 0 && data.map((item, index)=>(
             <article key={index} className="activity-container">
             <div className="activity-header" style={{ backgroundColor: colorSelector[item.title] }}>
                 <img src={item.img} alt="activity img" />
