@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "build-css": "node-sass --include-path scss src/styles/styles.scss src/styles/styles.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -18,6 +19,7 @@
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react-swc": "^3.0.0",
+    "gh-pages": "^5.0.0",
     "node-sass": "^9.0.0",
     "nodemon": "^2.0.22",
     "nodesass": "^0.0.2-security",

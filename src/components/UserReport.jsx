@@ -12,7 +12,7 @@ export const UserReport = ({setTime, time}) => {
       <section className="user-report-container">
           <article className="user-report-info">
             <div className="avatar-container">
-              <img className="avatar"src="/images/image-jeremy.png" alt="avatar" />
+              <img className="avatar"src="./images/image-jeremy.png" alt="avatar" />
             </div>
             <div className="report-for-container">
               <p className="report-for-p">Report for</p>
