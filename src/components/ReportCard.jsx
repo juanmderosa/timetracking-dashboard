@@ -32,8 +32,8 @@ export const ReportCard = ({data, time}) => {
                   <p>{item.title}</p>
                   <img className='ellipsis-img' src="/images/icon-ellipsis.svg" alt="ellipsis" />
                   </div>
-                  <h2 className="timeframe-h2">{`${item.timeframes[time].current}`}hrs</h2>
-                  <p className="timeframe-last">{getMessage(item.timeframes[time].previous)}</p>
+                  <h2 className="timeframe-h2">{`${item.timeframes[time].current}`} hrs</h2>
+                  <p className="timeframe-last">{getMessage(item.timeframes[time].previous)} hrs</p>
               </aside>
             </article>
         ))}
