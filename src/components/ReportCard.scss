@@ -58,6 +58,18 @@
 .ellipsis-img:hover{
     filter: brightness(200%);
 }
+
+.timeframe-container{
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 650px){
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
 .timeframe-h2{
     font-size: 2rem;
     font-weight: 400;
