@@ -11,12 +11,11 @@ Users should be able to:
 - Switch between viewing Daily, Weekly, and Monthly stats
 
 ### Desktop Screenshot
-
-![](preview/timetraking-preview-desktop.png)
+![Desktop Preview](./src/preview/timetraking-preview-desktop.png)
 
 ### Mobile Screenshot
 
-![](preview/timetraking-preview-mobile.png)
+![Mobile Preview](./src/preview/timetraking-preview-mobile.png)
 
 ### Links
 
